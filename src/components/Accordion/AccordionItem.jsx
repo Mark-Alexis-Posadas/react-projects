@@ -1,12 +1,13 @@
-export default function AccordionItem({ title, description, key }) {
+export default function AccordionItem({ title, description }) {
   return (
-    <>
-      <li key={key}>
+    <ul>
+      <li>
         {title}
-        <ul>
-          <li>{description}</li>
-        </ul>
+        <span></span>
       </li>
-    </>
+      <ul>
+        <li>{description}</li>
+      </ul>
+    </ul>
   );
 }
