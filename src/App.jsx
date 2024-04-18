@@ -1,9 +1,9 @@
-import Accordion from "./components/Accordion/Accordion";
+import Tab from "./components/Tab/Tab";
 
 const App = () => {
   return (
     <>
-      <Accordion />
+      <Tab />
     </>
   );
 };
