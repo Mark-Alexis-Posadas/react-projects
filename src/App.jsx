@@ -1,10 +1,10 @@
-import Tab from "./components/Tab/Tab";
+import Theme from "./components/Theme/Theme";
 
 const App = () => {
   return (
-    <>
-      <Tab />
-    </>
+    <div>
+      <Theme />
+    </div>
   );
 };
 
