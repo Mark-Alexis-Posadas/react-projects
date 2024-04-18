@@ -11,7 +11,7 @@ export default function Accordion() {
 
   return (
     <div className="max-w-[900px] m-auto mt-5">
-      <h2 className="font-bold">Project 2: FAQ/Accordion</h2>
+      <h2 className="font-bold">FAQ/Accordion</h2>
 
       {accordionItems.map((accordion) => (
         <AccordionItem
