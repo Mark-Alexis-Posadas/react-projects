@@ -10,8 +10,8 @@ export default function Accordion() {
   };
 
   return (
-    <>
-      <h2>Project 2: FAQ/Accordion</h2>
+    <div className="max-w-[900px] m-auto mt-5">
+      <h2 className="font-bold">Project 2: FAQ/Accordion</h2>
 
       {accordionItems.map((accordion) => (
         <AccordionItem
@@ -23,6 +23,6 @@ export default function Accordion() {
           isActive={accordion.id === activeAccordion}
         />
       ))}
-    </>
+    </div>
   );
 }

@@ -20,7 +20,7 @@ export default function AccordionItem({
         </span>
       </li>
       {isActive && (
-        <div>
+        <div className="p-2 bg-white shadow-md">
           <p>{description}</p>
         </div>
       )}
