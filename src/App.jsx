@@ -1,9 +1,9 @@
-import Theme from "./components/Theme/Theme";
+import Ratings from "./components/Ratings/Ratings";
 
 const App = () => {
   return (
     <div>
-      <Theme />
+      <Ratings />
     </div>
   );
 };
